@@ -2,6 +2,15 @@
   display: none;
 }
 
+#initially-hidden-fade {
+  display: none;
+}
+
+
+#initially-hidden-slide {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -9,4 +18,26 @@
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+.clickable-fade {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-fade:hover {
+  text-decoration: underline;
+}
+
+.clickable-slide {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-slide:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin-bottom: 30px;
 }
