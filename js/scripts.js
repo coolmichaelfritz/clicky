@@ -16,4 +16,28 @@ jQuery(document).ready(function() {
     $("#initially-hidden-slide").slideToggle(1000);
 
   });
+$("button#green").click(function(){
+  $("body").removeClass();
+  $("body").addClass("green-background");
+});
+
+$("button#yellow").click(function() {
+  $("body").removeClass();
+  $("body").addClass("yellow-background");
+});
+
+$("button#red").click(function() {
+  $("body").removeClass();
+  $("body").addClass("red-background");
+});
+
+$("button#black").click(function(){
+  $("body").addClass("text-white");
+  $("body").addClass("black-background")
+});
+
+$("button#reset").click(function(){
+  $("body").removeClass();
+})
+
 });

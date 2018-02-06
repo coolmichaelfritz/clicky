@@ -41,3 +41,23 @@
 .container {
   margin-bottom: 30px;
 }
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
